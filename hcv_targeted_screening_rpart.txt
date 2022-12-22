@@ -1,0 +1,98 @@
+n= 207652 
+
+node), split, n, loss, yval, (yprob)
+      * denotes terminal node
+
+   1) root 207652 424.0 1  
+     2) ast_num< 38.9 197646 248.0 1  
+       4) birth_area=Andean Latin America,Australasia,Caribbean,Central Europe,Central Latin America,East Sub-Saharan Africa,High-income North America,North Africa/Middle East,NOS,South Asia,Southeast Asia,Southern Latin America,Tropical Latin America,Western Europe 180112 126.4 1  
+         8) drug_abuse=No 179087 110.4 1  
+          16) ast_num< 28.9 161899  57.6 1 *
+          17) ast_num>=28.9 17188  52.8 1  
+            34) globulin_num< 4.05 17060  46.4 1 *
+            35) globulin_num>=4.05 128   6.4 1  
+              70) hdl_num< 54.5 107   1.6 1 *
+              71) hdl_num>=54.5 21   4.8 1  
+               142) albumin_num>=3.95 14   0.0 1 *
+               143) albumin_num< 3.95 7   4.0 2 *
+         9) drug_abuse=Yes 1025  16.0 1  
+          18) plt_cat=Low,Normal 947   9.6 1  
+            36) alt_num< 23.55 705   0.0 1 *
+            37) alt_num>=23.55 242   9.6 1  
+              74) hgb_num< 16.35 222   4.8 1 *
+              75) hgb_num>=16.35 20   4.8 1  
+               150) age< 54.5 13   0.0 1 *
+               151) age>=54.5 7   4.0 2 *
+          19) plt_cat=High,Missing 78   6.4 1 *
+       5) birth_area=Central Asia,Eastern Europe,South Sub-Saharan Africa 17534 121.6 1  
+        10) ast_cat=Low,Normal 15981  72.0 1  
+          20) hgb_num< 18.45 15974  70.4 1  
+            40) bilirubin_num>=0.1 15966  68.8 1  
+              80) ast_num< 28.75 14431  43.2 1 *
+              81) ast_num>=28.75 1535  25.6 1  
+               162) baso_num>=0.005 856   3.2 1 *
+               163) baso_num< 0.005 679  22.4 1  
+                 326) birth_area=Eastern Europe 632  16.0 1 *
+                 327) birth_area=Central Asia,South Sub-Saharan Africa 47   6.4 1  
+                   654) alp_num>=58.5 38   0.0 1 *
+                   655) alp_num< 58.5 9   5.0 2 *
+            41) bilirubin_num< 0.1 8   1.6 1 *
+          21) hgb_num>=18.45 7   1.6 1 *
+        11) ast_cat=High,Missing 1553  49.6 1 *
+     3) ast_num>=38.9 10006 176.0 1  
+       6) birth_area=Andean Latin America,Australasia,Caribbean,Central Europe,Central Latin America,East Sub-Saharan Africa,North Africa/Middle East,NOS,South Asia,South Sub-Saharan Africa,Southeast Asia,Southern Latin America,Tropical Latin America,Western Europe 8794  68.8 1  
+        12) drug_abuse=No 8729  52.8 1  
+          24) plt_num>=132.5 8363  40.0 1 *
+          25) plt_num< 132.5 366  12.8 1 *
+        13) drug_abuse=Yes 65  16.0 1  
+          26) age< 47 32   0.0 1 *
+          27) age>=47 33  16.0 1  
+            54) alp_num>=99.5 15   1.6 1 *
+            55) alp_num< 99.5 18   9.0 2 *
+       7) birth_area=Central Asia,Eastern Europe,High-income North America 1212 107.2 1  
+        14) cholesterol_num>=166.1 845  44.8 1  
+          28) hdl_num< 92.5 813  36.8 1  
+            56) hct_num< 48.75 747  25.6 1  
+             112) alp_num>=57.5 635  12.8 1 *
+             113) alp_num< 57.5 112  12.8 1  
+               226) bilirubin_num>=0.67 49   0.0 1 *
+               227) bilirubin_num< 0.67 63  12.8 1  
+                 454) plt_num>=237 29   0.0 1 *
+                 455) plt_num< 237 34  12.8 1  
+                   910) alp_num< 52.5 26   4.8 1  
+                    1820) plt_num< 217.5 19   0.0 1 *
+                    1821) plt_num>=217.5 7   4.0 2 *
+                   911) alp_num>=52.5 8   3.0 2 *
+            57) hct_num>=48.75 66  11.2 1  
+             114) wbc_num< 9.36 51   3.2 1 *
+             115) wbc_num>=9.36 15   8.0 1 *
+          29) hdl_num>=92.5 32   8.0 1  
+            58) ldh_num< 414 12   0.0 1 *
+            59) ldh_num>=414 20   8.0 1  
+             118) plt_num< 207 10   0.0 1 *
+             119) plt_num>=207 10   5.0 2 *
+        15) cholesterol_num< 166.1 367  62.4 1  
+          30) alt_num< 98 302  36.8 1  
+            60) creatinine_num>=0.945 89   0.0 1 *
+            61) creatinine_num< 0.945 213  36.8 1  
+             122) eos_num>=0.065 200  28.8 1  
+               244) urea_num< 51 193  24.0 1  
+                 488) alt_num< 39.5 56   0.0 1 *
+                 489) alt_num>=39.5 137  24.0 1  
+                   978) ast_num>=46.5 79   4.8 1 *
+                   979) ast_num< 46.5 58  19.2 1  
+                    1958) alp_num>=81.5 32   3.2 1 *
+                    1959) alp_num< 81.5 26  16.0 1  
+                      3918) albumin_num>=4.455 9   1.6 1 *
+                      3919) albumin_num< 4.455 17   8.0 2 *
+               245) urea_num>=51 7   4.0 2 *
+             123) eos_num< 0.065 13   8.0 1 *
+          31) alt_num>=98 65  25.6 1  
+            62) age>=63.5 18   0.0 1 *
+            63) age< 63.5 47  25.6 1  
+             126) bilirubin_num< 0.77 25   6.4 1  
+               252) mono_num>=0.445 18   1.6 1 *
+               253) mono_num< 0.445 7   4.0 2 *
+             127) bilirubin_num>=0.77 22  10.0 2  
+               254) age< 35 7   1.6 1 *
+               255) age>=35 15   4.0 2 *
